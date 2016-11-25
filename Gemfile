@@ -36,6 +36,7 @@ gem 'shopify_app', git: 'https://github.com/Shopify/shopify_app.git'
 
 group :production do
   gem 'rails_12factor'
+  gem 'pg'
 end
 
 group :development, :test do
